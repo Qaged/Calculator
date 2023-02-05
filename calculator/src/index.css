@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin-top: 150px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.row button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+  margin: 3px;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+.row button:hover {
+  background-color: #555;
+}
