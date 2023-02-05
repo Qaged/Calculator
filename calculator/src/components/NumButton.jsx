@@ -1,7 +1,7 @@
 import React from "react";
 
-const NumButton = ({ index }) => {
-  return <button>{index}</button>;
+const NumButton = ({ index, onClick }) => {
+  return <button onClick={onClick}>{index}</button>;
 };
 
 export default NumButton;

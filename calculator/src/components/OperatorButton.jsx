@@ -1,7 +1,7 @@
 import React from "react";
 
-const OperatorButton = ({ type }) => {
-  return <button>{type}</button>;
+const OperatorButton = ({ type, onClick }) => {
+  return <button onClick={onClick}>{type}</button>;
 };
 
 export default OperatorButton;
