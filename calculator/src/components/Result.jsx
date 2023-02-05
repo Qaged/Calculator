@@ -1,7 +1,9 @@
 import React from "react";
 
 const Result = ({ result }) => {
-  return <p>{result}</p>;
+  const content = result == 0 ? "0" : result;
+
+  return <p>{content}</p>;
 };
 
 export default Result;

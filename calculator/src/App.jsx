@@ -7,15 +7,23 @@ function App() {
   const [result, setResult] = useState("");
 
   const addValue = (v) => {
-    setResult(result + v.toString());
+    const operators = ["+", "-", "x", "/"];
+    for (let i = 0; i < operators.length; i++) {
+      if (v == operators[i]) {
+        setResult(result + " " + v + " ");
+        break;
+      }
+    }
+
+    setResult(result + v);
   };
 
   const renderNumButton = (i) => {
-    return <NumButton index={i} onClick={addValue(i)} />;
+    return <NumButton index={i} onClick={() => addValue(i)} />;
   };
 
   const renderOperatorButton = (t) => {
-    return <OperatorButton type={t} onClick={addValue(t)} />;
+    return <OperatorButton type={t} onClick={() => addValue(t)} />;
   };
 
   return (

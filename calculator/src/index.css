@@ -7,6 +7,28 @@ body {
 
 .App {
   margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #333;
+  width: 264px;
+  height: 45px;
+  margin-bottom: 20px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.result p {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+  font-size: 30px;
 }
 
 .row {
