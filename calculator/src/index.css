@@ -16,8 +16,8 @@ body {
   display: flex;
   justify-content: flex-end;
   background-color: #333;
-  width: 264px;
-  height: 45px;
+  width: 504px;
+  height: 90px;
   margin-bottom: 20px;
   align-items: center;
   border-radius: 10px;
@@ -27,8 +27,8 @@ body {
   color: #fff;
   margin: 0;
   padding: 0;
-  margin-right: 10px;
-  font-size: 30px;
+  margin-right: 15px;
+  font-size: 3.5rem;
 }
 
 .row {
@@ -41,11 +41,11 @@ body {
 }
 
 .row button {
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   border: none;
   outline: none;
-  font-size: 1.5rem;
+  font-size: 4rem;
   font-weight: 500;
   color: #fff;
   background-color: #333;
